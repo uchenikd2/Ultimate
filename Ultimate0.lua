@@ -2417,7 +2417,7 @@ end
 -- Название шаблона
 function nametempl()
 	local name0 = 'Ultimate 1.2b'
-	if brz == 0 then nameplus = ' [0-close/corner_random]'
+	if brz == 0 then nameplus = ' [0-close|corner_random]'
 	elseif brz == 1 then nameplus = ' [1-close]'
 	elseif brz == 2 then nameplus = ' [2-open]'
 	elseif brz == 3 then nameplus = ' [3-water]'
@@ -2429,7 +2429,7 @@ end
 
 -- ШАБЛОН
 template = {
-	name = 'Ultimate 1.2b [0-close/corner_random]',
+	name = 'Ultimate 1.2b [0-close|corner_random]',
 	description = 'Шаблон для игры без пвп-правил.\nЧерная зона в центре, ее должны касаться все остальные зоны.\nУсловие победы: убить всех лидеров соперника или соперник сдался.\nСпасибо за поддержку! Карта Тинькофф: 2200700846776804',
 	minSize = 48,
 	maxSize = 48,
